@@ -18,7 +18,7 @@ public class Main {
         public SumThread(int[] array) {
             this.array = array;
         }
-
+ 
         @Override
         public void run() {
             int sum = 0;
